@@ -22,6 +22,12 @@ def add():
 
 
 def mul():
+    '''Multiplication.
+
+    Return: 
+        3 if correct.
+        -2 if incorrect.
+    '''
     n1 = randint(2, 10)
     n2 = randint(2, 10)
     result = n1 * n2
