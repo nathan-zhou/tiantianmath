@@ -13,10 +13,10 @@ def add():
     result = n1 + n2
     answer = input(f'{n1} + {n2} = ')
     if result == int(answer):
-        print('correct')
+        print('Correct. You earned 5 points.')
         return 5
     else:
-        print('incorrect')
+        print('Incorrect. You lost 3 points.')
         print(f'{n1} + {n2} should be {result}')
         return -3
 
@@ -33,10 +33,10 @@ def mul():
     result = n1 * n2
     answer = input(f'{n1} * {n2} = ')
     if result == int(answer):
-        print('correct')
+        print('Correct. You earned 3 points.')
         return 3
     else:
-        print('incorrect')
+        print('Incorrect. You lost 2 points.')
         print(f'{n1} * {n2} should be {result}')
         return -2
 
