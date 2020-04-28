@@ -39,3 +39,18 @@ def mul():
         print('incorrect')
         print(f'{n1} * {n2} should be {result}')
         return -2
+
+
+def play(target=50):
+    '''Play calculation game for ramdom add/mul.
+
+    Args:
+        target(int): target score, 50 by default.
+    '''
+    points = 0
+    question = 0
+    while points < target:
+        question += 1
+        print(f'Question-{question}'.center(79, '~'))
+        points += choice([add, mul])()
+    print(f'Congratulations! You have answered {question} questions and earned {points}!')
