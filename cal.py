@@ -8,11 +8,11 @@ def add():
     answer = input(f'{n1} + {n2} = ')
     if result == int(answer):
         print('correct')
-        return True
+        return 5
     else:
         print('incorrect')
         print(f'{n1} + {n2} = {result}')
-        return False
+        return -3
 
 
 def mul():
