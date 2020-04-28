@@ -17,7 +17,7 @@ def add():
         return 5
     else:
         print('incorrect')
-        print(f'{n1} + {n2} = {result}')
+        print(f'{n1} + {n2} should be {result}')
         return -3
 
 
