@@ -53,6 +53,7 @@ def play(target=50):
         question += 1
         print(f'Question-{question}'.center(79, '~'))
         points += choice([add, mul])()
+        print(f'You have {points} points now.')
     print(f'Congratulations! You have answered {question} questions and earned {points}!')
 
 play()
