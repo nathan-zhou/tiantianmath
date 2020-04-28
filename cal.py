@@ -58,3 +58,4 @@ def play(target=50):
     print(f'You have answered {question} questions and earned {points}!')
 
 
+play(10)
